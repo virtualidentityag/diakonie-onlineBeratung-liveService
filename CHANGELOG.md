@@ -2,6 +2,67 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.8.0 (2024-05-13)
+
+
+### Features
+
+* [VIC-795] added fork auto sync config ([c92c8e8](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/c92c8e850ddbc43c96437242ac94f24a6ec76c20))
+* adapt documentation ([0ae2127](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/0ae2127049bb479afeb94aa8d3a2f9432f6864ec))
+* adapt new keycloak version ([e9b5d4f](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/e9b5d4fb9186fc17f42e536879ab9f39c1ddc59e))
+* add ghcr registry ([4e4a8f7](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/4e4a8f78ad48ec67bee16b373c283a456800227c))
+* add new live event type ([0c09fdc](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/0c09fdc906870f402ca5e0b23e4f7cec06bd0e25))
+* add new live event type ([480e2b4](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/480e2b4a1f5d7470d135a2093ddfdf0208c716e3))
+* add service to resolve user ids to session ids ([5e83700](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/5e83700bf8e75371e78a21799f77e581988dec3d))
+* added action trigger ([a1ec55e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/a1ec55e33c6095ca953a00bb62ff7c0ccd77bbfa))
+* added anonymous conversation finished event ([70f7b9b](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/70f7b9b98145c5af13258621d2fa3b2a595b4089))
+* added configuration for app base url ([0f90ea7](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/0f90ea7dfe1b7c295087575b44b92074207106d1))
+* added status source content for finish conversation event ([2097e73](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/2097e73b13b26ae8ba033ca481bff9e5868dc47f))
+* added testframework with unit and integration tests ([65631c1](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/65631c1477a39056fcbce617ad9bd77a198c5b03))
+* defined api and implement basic controller ([00f138a](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/00f138adc62ebc307e91d17ce60c842e6830051a))
+* handle user id list via request body ([bb1b660](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/bb1b6607d1905b396940e2f7dd3b6d52f108123a))
+* improve dev process ([ec2baf0](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/ec2baf0c5ceae63f63583d1ddd8755f3d1e7c0e7))
+* improve dev processes ([bbeb4c7](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/bbeb4c7dfec0c3c660182765b0da5da9c6d66c6f))
+* provide ackowledge based queued message handling ([eb037d5](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/eb037d57de141b37fd878520a556fa28ba4edd49))
+* provide basic websocket endpoint ([1679189](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/1679189a7d1aa9c31c069cd1c81aee3f773a54ba))
+* provide dedicated message user target sending ([89563e2](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/89563e27db2f01f36302fff4f78d9e4c8fa92348))
+* provide generalized api definition for extended object models ([2c4796f](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/2c4796f78b0183a2a9f6e1d7ab5e6c6397667980))
+* provide old native header id ([e765f77](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/e765f77cedc9fe375c5cb6a8f10894dd5f93048b))
+* restrict release action to branches starting with release ([79585f6](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/79585f69241d1c28991d71847293deba6995e84c))
+* switched java version for docker build, github actions and maven build ([bd40347](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/bd40347d0591fedbdf2b43e3b4e4b354871407a4))
+* translate ([09a62d4](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/09a62d4b6e3f44b956c900720628b8ee381b4a31))
+* update keycloak to version 11.0.2 ([f73aefc](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/f73aefcd78a10ee76954b613165ba17e7a83a967))
+* update spring boot and dependencies ([4ea10b6](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/4ea10b6f2a0859b5a8e61d9fc4c83bba93e0a180))
+* updated docker workflow with proper tagging ([140cd01](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/140cd0131496edb5ae2862f5de922d66e7db7bc2))
+* updated dockerImage.yml ([cecdc80](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/cecdc80f0b948ecaf4777705ccd949ac761fee66))
+* upgrade keycloak to the latest version ([b1c2e2e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/b1c2e2ea927f961f870064449006743c64ce2b2e))
+
+
+### Bug Fixes
+
+* change timeout for tests ([6ff9ff7](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/6ff9ff73c9ba303feb953e82d1b4a288266da748))
+* change timeout for tests ([1f1096a](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/1f1096ae297f057729b482adbea0a3ad2725fb40))
+* change timeout for tests ([4ca879a](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/4ca879af5668122675013599bde9142bd55f5676))
+* correct checkstyle violations ([9f97a8b](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/9f97a8b4bd90a223d12e85fa06abb620b7d40e36))
+* corrected value param ([41a536e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/41a536ee56b3db5a02cf04365dcf64945285452b))
+* deactivate keycloaks internal trust manager ([c914ca8](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/c914ca8e36350aadb79c3d483a446067941777f6))
+* fix allowed origin cors pattern error ([39287fb](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/39287fb6bef580a4a2c0617b231c8a41c6db2d95))
+* fix commons-text cve ([2196ac0](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/2196ac03b167164abc6c7785332d67987bb35047))
+* fix critical CVEs ([b01dba5](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/b01dba5408dd0f88b8edd7ce5c934051b26b86cb))
+* fix critical CVEs ([60955ff](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/60955ffc83f366a3ed646199247c275e950a1859))
+* fix critical CVEs ([c6f138e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/c6f138e221101f7ccf7ccaa34b9a00089e9f5516))
+* fix critical CVEs ([3e38c10](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/3e38c101898af3bbc4da14fc036cab6d37fe4b57))
+* fix critical CVEs ([099e92c](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/099e92c6e4e6768d9491c6a42329c6b7117de1df))
+* fix plexus dependency version ([37d0c0c](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/37d0c0c97ed16679760dd87482dbfe35058bb20a))
+* fix spring security version ([b209c95](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/b209c95bfd8a7d9999d301a1955b57325b69ffd9))
+* force safe log4j version ([385f511](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/385f51164c5d1db37a44a967e908a7d487726cfa))
+* increase timeout for tests ([de03a88](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/de03a882d924d5cf178b3f3a569a0a2b64379139))
+* remove breaking log4j dependency ([a466b0e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/a466b0eac346c5471e3ca2c15cb0b454064e0e6d))
+* revert to prev version to solve bug ([21363f5](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/21363f5520c9a75528f0e18b24ea42e5fd30f026))
+* run prettier ([ea0fa1c](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/ea0fa1c6759afbac891ac379172614f16027f573))
+* update log4j ([e6dc025](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/e6dc02508bb2227a9a5baa7e45c13e6a1832f8ad))
+* workflow ([0f1a8c7](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/commit/0f1a8c7d28000dea7efaaf428d4f08d1c4fbd599))
+
 ## [1.7.0](https://github.com/CaritasDeutschland/caritas-onlineBeratung-liveService/compare/v1.6.0...v1.7.0) (2021-12-14)
 
 
